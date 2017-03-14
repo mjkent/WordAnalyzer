@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordAnalyzerConsole", "WordAnalyzerConsole\WordAnalyzerConsole.csproj", "{3AF36230-5B66-4774-B1D9-41D56AF7317A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordAnalyzer", "WordAnalyzer\WordAnalyzer.csproj", "{876E9733-BDB1-4137-A27D-68A107202CD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AF36230-5B66-4774-B1D9-41D56AF7317A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF36230-5B66-4774-B1D9-41D56AF7317A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF36230-5B66-4774-B1D9-41D56AF7317A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF36230-5B66-4774-B1D9-41D56AF7317A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876E9733-BDB1-4137-A27D-68A107202CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876E9733-BDB1-4137-A27D-68A107202CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876E9733-BDB1-4137-A27D-68A107202CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876E9733-BDB1-4137-A27D-68A107202CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

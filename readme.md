@@ -1,0 +1,1 @@
+Simple library/application to do some text manipulation.
