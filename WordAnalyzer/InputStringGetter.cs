@@ -7,18 +7,15 @@ namespace WordAnalyzer
     {
         internal static string GetInputString(string input)
         {
-            string text;
             if (IsLocalPath(input))
             {
-                text = System.IO.File.ReadAllText(input);
+                return System.IO.File.ReadAllText(input);
             }
             else
             {
                 var client = new WebClient();
-                text = client.DownloadString(input);
+                return client.DownloadString(input);
             }
-
-            return text;
         }
 
         private static bool IsLocalPath(string path)
